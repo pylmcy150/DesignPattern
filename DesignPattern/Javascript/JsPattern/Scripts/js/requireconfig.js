@@ -1,7 +1,8 @@
 ﻿requirejs.config({
-    baseUrl: "js/",
+    baseUrl: "Scripts/js/pattern",
     paths: {
-        qunit: "../Scripts/qunit-1.14.0"
+        qunit: "../../qunit-1.14.0",
+        singleton: "singleton"
     },
     shim: {
         qunit: {
@@ -16,4 +17,12 @@ require(["qunit"], function (QUnit) {
     QUnit.test("hello test", function (assert) {
         assert.ok(1 == "1", "Passed!");
     })
+
+    require(["singleton"], function (singleton) {
+        var s1 = singleton.getInstance();
+        var s2 = singleton.getInstance();
+        QUnit.test("singleton", function (assert) {
+            assert.ok(s1 === s2, "Passed!");
+        });
+    });
 });
