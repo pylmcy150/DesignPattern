@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="GeneratedCode\SingletonTests.cs" />
     <Compile Include="GeneratedCode\AbstractFactoryTests.cs" />
+    <Compile Include="GeneratedCode\BuildTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

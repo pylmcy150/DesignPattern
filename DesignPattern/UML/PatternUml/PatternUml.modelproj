@@ -29,6 +29,13 @@
       <SubType>Content</SubType>
       <DependentUpon>AbstractFactory.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Builder.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Builder.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Builder.classdiagram</DependentUpon>
+    </Content>
     <Content Include="Singleton.classdiagram">
       <SubType>Content</SubType>
     </Content>

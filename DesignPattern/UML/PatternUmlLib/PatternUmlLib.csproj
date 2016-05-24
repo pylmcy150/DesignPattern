@@ -43,8 +43,12 @@
     <Compile Include="GeneratedCode\AbstractFactory.cs" />
     <Compile Include="GeneratedCode\AbstractProductA.cs" />
     <Compile Include="GeneratedCode\AbstractProductB.cs" />
+    <Compile Include="GeneratedCode\Builder.cs" />
+    <Compile Include="GeneratedCode\ConcreteBuilder.cs" />
     <Compile Include="GeneratedCode\ConcreteFactory1.cs" />
     <Compile Include="GeneratedCode\ConcreteFactory2.cs" />
+    <Compile Include="GeneratedCode\Director.cs" />
+    <Compile Include="GeneratedCode\Product.cs" />
     <Compile Include="GeneratedCode\ProductA1.cs" />
     <Compile Include="GeneratedCode\ProductA2.cs" />
     <Compile Include="GeneratedCode\ProductB1.cs" />
