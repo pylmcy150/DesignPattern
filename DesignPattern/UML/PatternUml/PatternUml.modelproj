@@ -29,12 +29,47 @@
       <SubType>Content</SubType>
       <DependentUpon>AbstractFactory.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Adapter.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Adapter.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Adapter.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Bridge.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Bridge.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Bridge.classdiagram</DependentUpon>
+    </Content>
     <Content Include="Builder.classdiagram">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Builder.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>Builder.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Component.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Component.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Component.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Decorator.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Decorator.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Decorator.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Prototype.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Prototype.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Prototype.classdiagram</DependentUpon>
     </Content>
     <Content Include="Singleton.classdiagram">
       <SubType>Content</SubType>

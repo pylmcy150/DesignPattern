@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{86C06FA1-71DF-466A-AE3B-AFAF5CBCA1FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNet", "DotNet", "{81FE081A-A082-4E9B-870E-EBBE05133455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScript", "JavaScript", "{719D90F3-850D-4E42-AF89-A0A8A63DB867}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "PatternUml", "UML\PatternUml\PatternUml.modelproj", "{A00F54FD-ADFC-443C-8974-98E9D9A2CDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternUmlLib", "UML\PatternUmlLib\PatternUmlLib.csproj", "{3D70E444-DEB9-4FBA-B4B5-33570E63218C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "DotNet\UnitTestProject\UnitTestProject.csproj", "{616FDAF6-ED93-401F-937C-0B0204677A2D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JsPattern", "Javascript\JsPattern\", "{9E3000CD-9D9F-4561-83AD-48421435076B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5646"
+		Debug.AspNetCompiler.PhysicalPath = "Javascript\JsPattern\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5646\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5646"
+		Release.AspNetCompiler.PhysicalPath = "Javascript\JsPattern\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5646\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5646"
+		SlnRelativePath = "Javascript\JsPattern\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00F54FD-ADFC-443C-8974-98E9D9A2CDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00F54FD-ADFC-443C-8974-98E9D9A2CDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00F54FD-ADFC-443C-8974-98E9D9A2CDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00F54FD-ADFC-443C-8974-98E9D9A2CDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D70E444-DEB9-4FBA-B4B5-33570E63218C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D70E444-DEB9-4FBA-B4B5-33570E63218C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D70E444-DEB9-4FBA-B4B5-33570E63218C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D70E444-DEB9-4FBA-B4B5-33570E63218C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616FDAF6-ED93-401F-937C-0B0204677A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616FDAF6-ED93-401F-937C-0B0204677A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616FDAF6-ED93-401F-937C-0B0204677A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616FDAF6-ED93-401F-937C-0B0204677A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3000CD-9D9F-4561-83AD-48421435076B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3000CD-9D9F-4561-83AD-48421435076B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3000CD-9D9F-4561-83AD-48421435076B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3000CD-9D9F-4561-83AD-48421435076B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A00F54FD-ADFC-443C-8974-98E9D9A2CDAC} = {86C06FA1-71DF-466A-AE3B-AFAF5CBCA1FD}
+		{616FDAF6-ED93-401F-937C-0B0204677A2D} = {81FE081A-A082-4E9B-870E-EBBE05133455}
+		{9E3000CD-9D9F-4561-83AD-48421435076B} = {719D90F3-850D-4E42-AF89-A0A8A63DB867}
+	EndGlobalSection
+EndGlobal

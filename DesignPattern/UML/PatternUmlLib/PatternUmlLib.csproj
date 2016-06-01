@@ -41,19 +41,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GeneratedCode\AbstractFactory.cs" />
+    <Compile Include="GeneratedCode\Abstraction.cs" />
     <Compile Include="GeneratedCode\AbstractProductA.cs" />
     <Compile Include="GeneratedCode\AbstractProductB.cs" />
+    <Compile Include="GeneratedCode\Adaptee.cs" />
+    <Compile Include="GeneratedCode\Adapter.cs" />
     <Compile Include="GeneratedCode\Builder.cs" />
+    <Compile Include="GeneratedCode\Client.cs" />
+    <Compile Include="GeneratedCode\Component.cs" />
+    <Compile Include="GeneratedCode\Composite.cs" />
     <Compile Include="GeneratedCode\ConcreteBuilder.cs" />
     <Compile Include="GeneratedCode\ConcreteFactory1.cs" />
     <Compile Include="GeneratedCode\ConcreteFactory2.cs" />
+    <Compile Include="GeneratedCode\ConcreteImplementorA.cs" />
+    <Compile Include="GeneratedCode\ConcreteImplementorB.cs" />
     <Compile Include="GeneratedCode\Director.cs" />
+    <Compile Include="GeneratedCode\Implementor.cs" />
+    <Compile Include="GeneratedCode\Leaf.cs" />
     <Compile Include="GeneratedCode\Product.cs" />
     <Compile Include="GeneratedCode\ProductA1.cs" />
     <Compile Include="GeneratedCode\ProductA2.cs" />
     <Compile Include="GeneratedCode\ProductB1.cs" />
     <Compile Include="GeneratedCode\ProductB2.cs" />
+    <Compile Include="GeneratedCode\RefinedAbstraction.cs" />
     <Compile Include="GeneratedCode\Singleton.cs" />
+    <Compile Include="GeneratedCode\Target.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
